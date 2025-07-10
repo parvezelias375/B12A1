@@ -14,6 +14,9 @@
   font-variation-settings:
     "wdth" 100;
 }
+.secondary-bg{
+    background-color: rgba(123, 119, 243, 0.01);
+}
 .btn-primary{
 background-color: #4E47FF;
 padding: 5px 10px;
@@ -52,4 +55,59 @@ nav{
     margin: 0 35px 0 230px;
     padding: 309px 267px 237px 267px;
     text-align: center;
+}
+
+/* action section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.action{
+    display: flex;
+    justify-content: space-between;
+    margin: 116px -159px 116px -141px;
+    
+    
+}
+.action-title{
+    font-weight: bold;
+    font-size: 42px;
+}
+.action-descrption{
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.5);
+}
+.action-img{
+    width: 403px ;
+    border-radius: 25px;
+}
+.action-content{
+ max-width: 517px ;
+}
+/* productive section */
+.productive-users{
+    margin-top: 116px;
+    padding: 50px 142px;
+}
+.productive-title{
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+    
+}
+.users-nmbrs{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+.users-activity{
+    color: #000000;
+    font-size: 20px;
+}
+.all-items{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 40px 301px 0px 283px;
 }
