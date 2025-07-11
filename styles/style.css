@@ -194,6 +194,8 @@ height: 50px;
     padding: 5px 15px;
     margin: 20px -250px 30px 0px;
     font-size: 16px;
+    border-color: #D6DDED;
+    
 }
 .touch-title{
     font-size: 97px;
@@ -239,5 +241,6 @@ a{
     text-decoration: none;
     margin-right: 20px;
     color: #8987A1;
+   
     
 }
