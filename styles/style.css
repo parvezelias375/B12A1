@@ -14,9 +14,20 @@
   font-variation-settings:
     "wdth" 100;
 }
+.open-sans-<uniquifier> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+body{
+    background-color: aliceblue;
+}
 
 .secondary-bg{
-    background-color: rgba(123, 119, 243, 0.01);
+    background-color: aliceblue;
 }
 .btn-primary{
 background-color: #4E47FF;
@@ -25,6 +36,11 @@ border-radius: 7px;
 color: white;
 border: none;
 font-size: 16px;
+transition: 0.3s;
+}
+.btn-primary:hover{
+    background-color: yellow;
+    color: black;
 }
 /* header */
 .header{
@@ -63,12 +79,14 @@ nav{
 main{
     max-width: 1140px;
     margin: 0 auto;
+    background-color: aliceblue fill;
     
 }
 .action{
     display: flex;
     justify-content: space-between;
-    margin: 116px -159px 116px -141px;
+    margin: 116px -150px 116px -100px;
+  
     
     
 }
@@ -194,4 +212,32 @@ height: 50px;
     font-size: 15px;
     color: white;
   
+}
+.touch-btn:hover{
+    background-color: yellow;
+    color: black;
+}
+/* footer */
+.contents{
+   text-align: center;
+   padding-top: 118px;
+   padding-bottom: 103px;
+   background-color: white;
+   
+}
+.footer-title{
+    font-size: 100;
+    font-weight: bold;
+    color: #4E47FF;
+    font-family: "Open Sans" , "sans-serif" ;
+}
+.footer-description{
+    color: #8987A1;
+}
+a{
+    align-items: center;
+    text-decoration: none;
+    margin-right: 20px;
+    color: #8987A1;
+    
 }
